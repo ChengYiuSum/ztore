@@ -1,0 +1,28 @@
+{
+    "dcfb-4cfb-8fa0": {
+        "fields": {
+            "89cd-4489-9b8d": {
+                "id": "89cd-4489-9b8d", 
+                "name": "Name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "f47f-4936-9bbf": {
+                "id": "f47f-4936-9bbf", 
+                "name": "Price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "35b3-41d1-b501": {
+                "id": "35b3-41d1-b501", 
+                "name": "Comment", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "NESCAFE - Ztore"
+    }
+}

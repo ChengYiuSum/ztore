@@ -1,0 +1,107 @@
+{
+    "extractors": {},
+    "id": "4d60-42af-9b1c",
+    "name": "Product",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "6515-46b3-84be",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "dcfb-4cfb-8fa0",
+                    "selector": "#detail",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".name-rating-container > .name > .jsx-2437178096"
+                    ],
+                    "container_id": "6515-46b3-84be",
+                    "data": {
+                        "ab09-4d89-9976": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "89cd-4489-9b8d",
+                            "required": false
+                        }
+                    },
+                    "id": "54bd-4c12-bd1e",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "#detail > .info > .jsx-2437178096 > .name-rating-container > .name > .jsx-2437178096",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[@id=\"detail\"]/*[contains(concat(\" \", @class, \" \"), \" info \")]/*[contains(concat(\" \", @class, \" \"), \" jsx-2437178096 \")]/*[contains(concat(\" \", @class, \" \"), \" name-rating-container \")]/*[contains(concat(\" \", @class, \" \"), \" name \")]/*[contains(concat(\" \", @class, \" \"), \" jsx-2437178096 \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".jsx-2437178096:nth-child(4) > .jsx-2437178096 > .promotion"
+                    ],
+                    "container_id": "6515-46b3-84be",
+                    "data": {
+                        "d3aa-471f-9146": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "f47f-4936-9bbf",
+                            "required": false
+                        }
+                    },
+                    "id": "5b39-47b6-a19c",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "#detail > .info > .jsx-2437178096 > .price > .jsx-2437178096 > .promotion",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[@id=\"detail\"]/*[contains(concat(\" \", @class, \" \"), \" info \")]/*[contains(concat(\" \", @class, \" \"), \" jsx-2437178096 \")]/*[contains(concat(\" \", @class, \" \"), \" price \")]/*[contains(concat(\" \", @class, \" \"), \" jsx-2437178096 \")]/*[contains(concat(\" \", @class, \" \"), \" promotion \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".empty:nth-child(3)"
+                    ],
+                    "container_id": "6515-46b3-84be",
+                    "data": {
+                        "bfbd-474c-a6fc": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "35b3-41d1-b501",
+                            "required": false
+                        }
+                    },
+                    "id": "9848-45d1-b5e0",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "#detail > .white > .ctnr > .detail-review > .jsx-3132737769 > .empty",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[@id=\"detail\"]/*[contains(concat(\" \", @class, \" \"), \" white \")]/*[contains(concat(\" \", @class, \" \"), \" ctnr \")]/*[contains(concat(\" \", @class, \" \"), \" detail-review \")]/*[contains(concat(\" \", @class, \" \"), \" jsx-3132737769 \")]/*[contains(concat(\" \", @class, \" \"), \" empty \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "dcfb-4cfb-8fa0",
+    "spider": "www.ztore.com",
+    "url": "https://www.ztore.com/tc/product/world-coffee-beverage-sumatra-1039783",
+    "version": "0.13.3"
+}
